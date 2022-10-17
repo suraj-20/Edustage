@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* header section start */
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #070787;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #070787;
+}
+
+a i {
+    margin-right: 0.5rem;
+}
+
+.nav {
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #070787;
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+.fa-solid {
+    margin-left: 1rem;
+    color: #070787;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #f8e006;
+}
+
+/* header section end */
+
+
+/* home section start */
+
+#home {
+    height: 90vh;
+}
+
+.bg-image {
+    background: url('https://www.livecareer.com/wp-content/uploads/2020/09/college-education-value.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-image h5 {
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    color: #070787;
+    font-weight: bold;
+}
+
+.bg-image h2 {
+    text-align: center;
+    position: relative;
+    top: 6rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #05055e;
+}
+
+.button {
+    position: relative;
+    top: 7rem;
+}
+
+.learnMore {
+    background-color: #070787;
+    color: #f8e006;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.courses {
+    background-color: #f8e006;
+    color: #05055e;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: none;
+}
+
+/* home section end */
+
+/* feature section start */
+
+#feature {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature h3 {
+    padding-top: 4rem;
+    font-weight: bold;
+    color: #05055e;
+}
+
+.feature p {
+    color: #4646488a;
+}
+
+.feature .cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.feature .card {
+    margin: 1rem;
+    border: none;
+}
+
+.card-body {
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    color: #05055e;
+    font-weight: bold;
+}
+
+.card-body .fa-solid {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+}
+
+/* feature section end */
+
+/* register section start */
+
+.register {
+    height: 60vh;
+    background-color: #02023b;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 10%;
+}
+
+.conteiner1 {
+    color: #fff;
+    width: 70%;
+}
+
+.container2 {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+form button {
+    padding: 0.3rem 5rem;
+    background-color: #f8e006;
+    color: #05055e;
+    border: none;
+    margin-top: 1rem;
+}
+
+/* register section end */
+
+/* trianer section start */
+
+.trainers {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainers h3 {
+    padding-top: 2rem;
+    font-weight: bold;
+    color: #05055e;
+}
+
+.trainers p {
+    color: #4646488a;
+}
+
+.trainers .images {
+    display: flex;
+}
+
+.images .card {
+    margin: 1rem;
+}
+
+.images .card .card-img-top {
+    height: 15rem;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.images .card .card-body {
+    background-color: #fff;
+    border-radius: 0rem;
+    text-align: center;
+}
+
+.images .card .card-body .card-text {
+    color: #05055e;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+
+.card-body span {
+    color: #46464989;
+    font-size: 0.9rem;
+}
+
+/* trainer section end */
+
+/* footer section start */
+
+.footer {
+    height: 50vh;
+    background-color: #02023b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 80%;
+}
+
+.footer-container .content {
+    color: #fff;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0rem;
+}
+
+.content ul li {
+    margin-bottom: 0.6rem;
+}
+
+.content ul li a {
+    color: #818188af;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+h6 {
+    margin-bottom: 2rem;
+}
+
+.content ul li input {
+    background-color: #666692ab;
+    border: none;
+    padding: 0.2rem 0.4rem;
+}
+
+.footer span {
+    margin-top: 2rem;
+    color: #fff;
+}
+
+/* footer section end */
